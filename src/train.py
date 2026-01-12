@@ -31,7 +31,7 @@ print(normalized_glucose_array[:20])
 print(x_train[:5])
 print(y_train[:5])
 
-# the model architecture
+# the model architecture  
 l1 = torch.nn.Linear(12, 128)
 l2 = torch.nn.Linear(128, 128)
 l3 = torch.nn.Linear(128, 128)
